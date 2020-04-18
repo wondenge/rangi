@@ -144,7 +144,7 @@ if *flagNoColor {
 It also has support for single color definitions (local). You can
 disable/enable color output on the fly:
 
-````go
+```go
 c := color.New(color.FgCyan)
 c.Println("Prints cyan text")
 
@@ -153,6 +153,7 @@ c.Println("This is printed without any color")
 
 c.EnableColor()
 c.Println("This prints again cyan...")
+```
 
 # colorable
 
@@ -171,4 +172,4 @@ logrus.Info("succeeded")
 logrus.Warn("not correct")
 logrus.Error("something error")
 logrus.Fatal("panic")
-````
+```
